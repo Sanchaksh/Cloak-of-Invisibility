@@ -10,7 +10,7 @@ vcap = cv2.VideoCapture(0)
 
 # Setting up webcam
 
-time.sleep(2)
+time.sleep(2) # in seconds
 
 background = 0
 
@@ -30,13 +30,13 @@ while(vcap.isOpened()):
     hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 
 # HSV values
-    lower_white = np.array([0,120, 70])
-    upper_white = np.array([10, 255, 255])
-    mask1 = cv2.inRange(hsv, lower_white, upper_white) #Cloak Partition
+    lower_red = np.array([0,120, 70])
+    upper_red = np.array([10, 255, 255])
+    mask1 = cv2.inRange(hsv, lower_red, upper_red) #Cloak Partition
     
-    lower_white = np.array([170, 120, 70])
-    upper_white = np.array([180, 255, 255])
-    mask2 = cv2.inRange(hsv, lower_white, upper_white)
+    lower_red = np.array([170, 120, 70])
+    upper_red = np.array([180, 255, 255])
+    mask2 = cv2.inRange(hsv, lower_red, upper_red)
     
     mask1 = mask1 + mask2 # Operator overloading for OR logic
     
