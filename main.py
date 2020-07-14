@@ -1,4 +1,5 @@
 # Importing Libraries
+# Change the HSV values for different colors.
 
 import numpy as np
 import cv2
