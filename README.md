@@ -3,3 +3,4 @@ The cloak of invisibility as shown in the harry potter movies. I created it usin
 Use a red coloured cloth
 
 *YOU CAN CHANGE THE HSV VALUES IN THE MASKS AND USE ANY CLOTH YOU WANT* 
+Set the rgb values.
