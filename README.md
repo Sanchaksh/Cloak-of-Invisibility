@@ -3,5 +3,5 @@ The cloak of invisibility as shown in the harry potter movies. I created it usin
 Use a red coloured cloth.
 Developed in python.
 
-*YOU CAN CHANGE THE HSV VALUES IN THE MASKS AND USE ANY CLOTH YOU WANT* 
+*YOU CAN CHANGE THE HSV FOR COLORS VALUES IN THE MASKS AND USE ANY CLOTH YOU WANT* 
 Set the rgb values.
