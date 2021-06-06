@@ -4,4 +4,4 @@ Use a red coloured cloth.
 Developed in python.
 
 *YOU CAN CHANGE THE HSV FOR COLORS VALUES IN THE MASKS AND USE ANY CLOTH YOU WANT* 
-Set the rgb values.
+Set the rgb values by any website.
